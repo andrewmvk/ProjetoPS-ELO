@@ -1,0 +1,72 @@
+/*estilos gerais*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: white url(../Imagens/fundo-caixa.png);
+}
+#container{
+    width: 720px;
+    max-width: 900px;
+    min-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+a{
+   text-decoration: none;
+   color: #1e90ff; 
+}
+
+/*estilo do conteúdo*/
+#conteudo{
+    margin-top: 60px;
+    background: #e6e8fa;
+    padding-bottom: 10px;
+}
+input{
+    height: 40px;
+    width: 80%;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    padding-left: 40px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+input.nome{
+    background-image: url(../Imagens/icone-usuario.png);
+}
+input.email{
+    background-image: url(../Imagens/icone-email.png);
+}
+input.password{
+    background-image: url(../Imagens/icone-cadeado.png);
+}
+input.submit{
+    color: white;
+    background-color: #1e90ff;
+    padding: 5px 20px;
+    height: 45px;
+    width: 86%;
+    border: 2px solid #0000ff;
+}
+input.submit:hover{
+    color: white;
+    background-color: #55aaff;
+    padding: 5px 20px;
+    height: 45px;
+    width: 86%;
+    border: 2px solid #0000ff;
+    cursor: pointer;
+}
+/*rodape*/
+#rodape{
+    clear: both;
+}
