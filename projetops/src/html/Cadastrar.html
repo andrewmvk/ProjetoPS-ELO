@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elo</title>
+    <link rel="stylesheet" href="../css/Style.css">
+    <script>
+        function confirmation(){
+            var name = document.getElementById('nome').value
+            var email = document.getElementById('email').value
+            var password = document.getElementById('password').value
+            alert(name)
+        }
+    </script>
+</head>
+<body>
+    <!--inicio do container-->
+    <div id="container">
+        <!--Inicio do conteúdo-->
+        <div id="conteudo">
+            <form>
+                <div>
+                    <input class="nome" type="username" name="nome" id="nome"
+                    placeholder="Digite um nome" required autofocus>
+                </div>
+                <div>
+                    <input class="email" type="email" name="email" id="email"
+                    placeholder="Digite um email" required>
+                </div>
+                <div>
+                    <input class="password" type="password" name="password" id="password"
+                    placeholder="Digite uma senha" required>
+                </div>
+                <div>
+                    <button class="submit" onclick="confirmation()">Cadastrar</button>
+                </div>
+            </form>
+            Efetuar login: <a href="Index.html">Login</a>
+        </div>
+        <!--Fim do conteudo-->
+    </div>
+    <div id="rodape"></div>
+    <!--fim do container-->
+</body>
+</html>

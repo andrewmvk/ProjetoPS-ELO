@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elo</title>
+    <link rel="stylesheet" href="../css/Style.css">
+    <script>
+        //função que atribui as dados do usuário às variáveis
+        function confirmation(){
+            var email = document.getElementById('email').value
+            var passoword = document.getElementById('password').value
+            alert(email)
+            //o alerto foi colocado apenas para verivicar se a variável estava recebendo o conteúdo do form
+        }
+    </script>
+</head>
+<body>
+    <!--inicio do container-->
+    <div id="container">
+        <!--Inicio do conteúdo-->
+        <div id="conteudo">
+            <form>
+                <div>
+                    <input class="email" type="email" name="email" id="email"
+                    placeholder="Digite seu email" required autofocus>
+                </div>
+                <div>
+                    <input class="password" type="password" name="password" id="password"
+                    placeholder="Digite sua senha" required>
+                </div>
+                <div>
+                    <button class="submit" onclick="confirmation()">Logar</button>
+                </div>
+            </form>
+            Não possui cadastro?
+            <a href="Cadastrar.html">Clique aqui</a>
+        </div>
+        <!--Fim do conteudo-->
+    </div>
+    <div id="rodape"></div>
+    <!--fim do container-->
+</body>
+</html>

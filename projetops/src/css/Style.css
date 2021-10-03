@@ -1,0 +1,82 @@
+/*estilos gerais*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: white url(../Imagens/fundo-caixa.png);
+}
+#container{
+    width: 80%;
+    max-width: 900px;
+    min-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+a{
+   text-decoration: none;
+   color: #214f85; 
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/*estilo do conteúdo*/
+#conteudo{
+    margin-top: 60px;
+    background: #f4f4f4;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+form input, button{
+    border-radius: 16px;
+}
+input{
+    height: 40px;
+    width: 80%;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    padding-left: 40px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+input.nome{
+    background-image: url(../Imagens/icone-usuario.png);
+}
+input.email{
+    background-image: url(../Imagens/icone-email.png);
+}
+input.password{
+    background-image: url(../Imagens/icone-cadeado.png);
+}
+button.submit{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: #214f85;
+    padding: 5px 20px;
+    height: 45px;
+    width: 84%;
+    border: 2px solid #0000ff;
+}
+button.submit:hover{
+    color: white;
+    background-color: #1e90ff;
+    padding: 5px 20px;
+    height: 45px;
+    width: 84%;
+    border: 2px solid #0000ff;
+    cursor: pointer;
+}
+/*rodape*/
+#rodape{
+    clear: both;
+}
