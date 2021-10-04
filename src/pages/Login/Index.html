@@ -4,15 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
+    <title>Login</title>
     <link rel="stylesheet" href="../css/Style.css">
     <script>
+        //função que atribui as dados do usuário às variáveis
         function confirmation(){
-            var name = document.getElementById('nome').value
             var email = document.getElementById('email').value
-            var password = document.getElementById('password').value
-            var photo = document.getElementById('imageCadastro').value
-            alert(photo)
+            var passoword = document.getElementById('password').value
         }
     </script>
 </head>
@@ -23,26 +21,19 @@
         <div id="conteudo">
             <form>
                 <div>
-                    <input class="nome" type="username" name="nome" id="nome"
-                    placeholder="Digite um nome" required autofocus>
-                </div>
-                <div>
                     <input class="email" type="email" name="email" id="email"
-                    placeholder="Digite um email" required>
+                    placeholder="Digite seu email" required autofocus>
                 </div>
                 <div>
                     <input class="password" type="password" name="password" id="password"
-                    placeholder="Digite uma senha" required>
-                </div>
-                <div id="imagem">
-                    <label class="image" for="imageCadastro">Escolha uma imagem de perfil</label>
-                    <input class="image" type="file" name="imageCadastro" id="imageCadastro" accept=".jpg, .png">
+                    placeholder="Digite sua senha" required>
                 </div>
                 <div>
-                    <button class="submit" onclick="confirmation()">Cadastrar</button>
+                    <button class="submit" onclick="confirmation()">Logar</button>
                 </div>
             </form>
-            Efetuar login: <a href="Index.html">Login</a>
+            Não possui cadastro?
+            <a href="Cadastrar.html">Clique aqui</a>
         </div>
         <!--Fim do conteudo-->
     </div>
