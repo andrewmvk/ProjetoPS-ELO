@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom"
+import './Style.css'
 
 export default function Error(){
     return (<>
-        <h1>Página não encontrada</h1>
-        <a href="/Login">Login</a>
+            <div id="imgError">
+            </div>
+            <a id="error" href="/Login">Login</a>
     </>)
 }

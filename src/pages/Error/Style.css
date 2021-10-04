@@ -1,0 +1,18 @@
+body{
+    margin: 0 auto;
+    height: 500px;
+    width: 1000px;
+    text-align: center center;
+}
+#imgError{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    height: 500px;
+    width: 1000px;
+    background-image: url(../../Imagens/página\ not\ found.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+a#error{
+    font-size: 32px;
+}
