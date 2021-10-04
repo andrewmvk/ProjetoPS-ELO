@@ -2,40 +2,40 @@
 *{
     padding: 0;
     margin: 0;
-}
-body{
+  }
+  body{
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    background: white url(../Imagens/fundo-caixa.png);
-}
-#container{
+    background: white url(../../Imagens/fundo-caixa.png);
+  }
+  #container{
     width: 80%;
     max-width: 900px;
     min-width: 400px;
     margin: 0 auto;
     text-align: center;
-}
-ul{
+  }
+  ul{
     list-style: none;
-}
-a{
+  }
+  a{
    text-decoration: none;
    color: #214f85; 
-}
-a:hover{
+  }
+  a:hover{
     text-decoration: underline;
-}
-
-/*estilo do conteúdo*/
-#conteudo{
+  }
+  
+  /*estilo do conteúdo*/
+  #conteudo{
     margin-top: 60px;
     background: #f4f4f4;
     padding-bottom: 10px;
     border-radius: 20px;
-}
-form input, button, label{
+  }
+  form input, button, label{
     border-radius: 16px;
-}
-input{
+  }
+  input{
     height: 40px;
     width: 80%;
     font-size: 18px;
@@ -46,23 +46,23 @@ input{
     border: none;
     background-repeat: no-repeat;
     background-position: 10px;
-}
-input.nome{
-    background-image: url(../Imagens/icone-usuario.png);
-}
-input.email{
-    background-image: url(../Imagens/icone-email.png);
-}
-input.password{
-    background-image: url(../Imagens/icone-cadeado.png);
-}
-label.image{
-    background-image: url(../Imagens/icone-imagem.png);
-}
-input[type='file']{
+  }
+  input.nome{
+    background-image: url(../../Imagens/icone-usuario.png);
+  }
+  input.email{
+    background-image: url(../../Imagens/icone-email.png);
+  }
+  input.password{
+    background-image: url(../../Imagens/icone-cadeado.png);
+  }
+  label.image{
+    background-image: url(../../Imagens/icone-imagem.png);
+  }
+  input[type='file']{
     display: none;
-}
-label{
+  }
+  label{
     font-size: 18px;
     margin-top: 10px;
     height: 40px;
@@ -72,17 +72,17 @@ label{
     background-position: 10px;
     color: #757575;
     padding: 10px 10px 10px 50px
-}
-label:hover{
+  }
+  label:hover{
     cursor: pointer;
     color: #214f85;
     transition: 0.5s;
-}
-form #imagem{
+  }
+  form #imagem{
     margin-top: 20px;
     margin-bottom: 20px;
-}
-.submit{
+  }
+  .submit{
     font-size: 18px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -93,12 +93,12 @@ form #imagem{
     width: 84%;
     border: 2px solid #0000ff;
     transition: 0.5s;
-}
-.submit:hover{
+  }
+  .submit:hover{
     background-color: #1e90ff;
     cursor: pointer;
-}
-/*rodape*/
-#rodape{
+  }
+  /*rodape*/
+  #rodape{
     clear: both;
-}
+  }
