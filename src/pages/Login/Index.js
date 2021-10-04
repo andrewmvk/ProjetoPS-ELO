@@ -41,7 +41,7 @@ export default function Login(){
                         </div>
                     </form>
                     Não possui cadastro?
-                    <a href="Cadastro">Clique aqui</a>
+                    <a href="Cadastro"> Clique aqui</a>
                 </div>
             </div>
             <div id="rodape"></div>
