@@ -3,10 +3,7 @@
     padding: 0;
     margin: 0;
   }
-  body{
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    background: white url(../../Imagens/fundo-caixa.png);
-  }
+ 
   #container{
     width: 80%;
     max-width: 900px;
