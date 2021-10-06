@@ -5,7 +5,12 @@
   }
   body{
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    background: white url(../../Imagens/fundo-caixa.png);
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../../Imagens/banner.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
   }
   #container{
     width: 80%;
