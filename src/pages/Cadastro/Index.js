@@ -22,9 +22,9 @@ export default function Cadastro(){
     }
     console.log(formvalue)
     return(
-        <>
+        <body>
             <div id="container">
-            <div id="conteudo">
+                <div id="conteudo">
                     <form onSubmit = {handleSubmit}>
                         <div>
                             <input class="nome" type="username" name="nome" id="nome"
@@ -50,9 +50,10 @@ export default function Cadastro(){
                             <button type="submit" class="submit" onclick="confirmation()">Cadastrar</button>
                         </div>
                     </form>
-                    Já possui cadastro? <a href="Login">Login</a>
+                    Efetuar login: <a class="loginECadastro" href="Login">Login</a>
                 </div>
             </div>
-        </>
+            <div id="rodape"></div>
+        </body>
     )
 }

@@ -1,0 +1,76 @@
+*{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+#tudo{
+    text-align: center;
+    padding: 0 auto;
+}
+#esquerda{
+    color: white;
+    float: left;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+#esquerda span{
+    color: #1e90ff;
+}
+#esquerda a{
+    text-decoration: none;
+}
+#esquerda h3{
+    margin-top: 80px;
+    color: black;
+}
+#esquerda h3{
+    padding: 5px;
+    border-radius: 16px;
+}
+#esquerda h3:hover{
+    color: white;
+    background-color: #1e90ff;
+    border-radius: 16px;
+    transition: 0.5s;
+}
+#direita{
+    float: right;
+    margin-right: 80px;
+    margin-top: 40px;
+}
+#direita a{
+    text-decoration: none;
+}
+#direita h3{
+    margin-top: 20px;
+    color: black;
+}
+#direita h3{
+    padding: 5px;
+    border-radius: 16px;
+}
+#direita h3:hover{
+    color: white;
+    background-color: #1e90ff;
+    border-radius: 16px;
+    transition: 0.5s;
+}
+#conteudo{
+    float: left;
+    margin-top: 250px;
+    margin-left: -240px;
+    width: 800px;
+    background: rgba(255, 255, 255, 0.3);
+}
+#conteudo img{
+    margin-top: 20px;
+    width: 200px;
+    border-radius: 200px;
+    padding-bottom: 20px;
+}
+#conteudo input{
+    margin: 20px;
+    border-radius: 16px;
+}
+.clear{
+    clear: both;
+}

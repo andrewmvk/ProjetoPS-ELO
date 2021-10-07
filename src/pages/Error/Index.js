@@ -5,6 +5,6 @@ export default function Error(){
     return (<>
             <div id="imgError">
             </div>
-            <a id="error" href="/Login">Login</a>
+            <a id="error" href="/">Home</a>
     </>)
 }

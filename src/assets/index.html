@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Calendário - Organize-se</title> 
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="css/all.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/calendar.png"
+                    widht="500"
+                    height="125"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">CALENDÁRIO</a></li>
+                        <li><a href="">PERFIL</a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>Organize melhor a sua agenda</h1>
+                <p>
+                    Ajudando você a controlar sua rotina e compromissos.
+                </p>
+                <a href="" class="hero-btn">Crie sua conta e comece agora.</a>
+            </div>
+            
+
+
+        </section>
+        <!--------Javascript Menu----------->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right= "-200px";
+            }
+        </script>
+        <!------------Footer----------->
+        <section class="footer">
+            <h4>Sobre Nós</h4>
+            <p> Temos como objetivo ajudar pessoas a se organizarem melhor.
+                <br> A criação de agendas auxilia a se lembrarem de reuniões
+                e compromissos feitos para determinado dia.</p>
+
+        </section>
+    </body>
+</html>
