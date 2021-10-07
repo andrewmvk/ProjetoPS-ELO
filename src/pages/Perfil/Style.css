@@ -54,20 +54,20 @@
     border-radius: 16px;
     transition: 0.5s;
 }
-#conteudo{
+#conteudoPerfil{
     float: left;
     margin-top: 250px;
     margin-left: -240px;
     width: 800px;
     background: rgba(255, 255, 255, 0.3);
 }
-#conteudo img{
+#conteudoPerfil img{
     margin-top: 20px;
     width: 200px;
     border-radius: 200px;
     padding-bottom: 20px;
 }
-#conteudo input{
+#conteudoPerfil input{
     margin: 20px;
     border-radius: 16px;
 }

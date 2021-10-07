@@ -17,7 +17,7 @@ export default function Perfil(){
                         <a href=""><h3>Calendário</h3></a>
                     </div>
                 </div>
-                <div id="conteudo">
+                <div id="conteudoPerfil">
                     <img src={Imagem} width="200ps"></img>
                     <input type="name" id="namePerfil" class="namePerfil" disabled="disabled" placeholder="Importar o nome pra cá"></input>
                     <input type="email" id="emailPerfil" class="emailPerfil" disabled="disabled" placeholder="Importar o email pra ca"></input>
