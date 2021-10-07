@@ -1,0 +1,29 @@
+body{
+    margin: 0 auto;
+    height: 500px;
+    width: 1000px;
+    text-align: center center;
+}
+#imgError{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    height: 500px;
+    width: 1000px;
+    background-image: url(../../Imagens/página\ not\ found.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
+a#error{
+    font-size: 32px;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border-radius: 16px;
+}
+a#error:hover{
+    background-color: #1e90ff;
+    color: white;
+    transition: 0.5s;
+    padding: 5px;
+}

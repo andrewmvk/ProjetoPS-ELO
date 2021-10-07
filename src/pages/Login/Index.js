@@ -22,7 +22,7 @@ export default function Login(){
     console.log(formvalue)
 
     return(
-        <body>
+        <>
             <div id="container">
                 <div id="conteudo">
                     <form onSubmit = {handleSubmit}>
@@ -41,10 +41,12 @@ export default function Login(){
                         </div>
                     </form>
                     Não possui cadastro?
+                    <a class="loginECadastro" href="Cadastro"> Clique aqui</a>
                     <a href="Cadastro"> Clique aqui</a>
+
                 </div>
             </div>
             <div id="rodape"></div>
-        </body>
+        </>
     )
 }

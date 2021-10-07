@@ -50,7 +50,7 @@ export default function Cadastro(){
                             <button type="submit" class="submit" onclick="confirmation()">Cadastrar</button>
                         </div>
                     </form>
-                    Efetuar login: <a href="Login">Login</a>
+                    Efetuar login: <a class="loginECadastro" href="Login">Login</a>
                 </div>
             </div>
             <div id="rodape"></div>

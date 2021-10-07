@@ -14,18 +14,17 @@
   ul{
     list-style: none;
   }
-  a{
+  .loginECadastro{
    text-decoration: none;
    color: #214f85; 
   }
-  a:hover{
+  .loginECadastro:hover{
     text-decoration: underline;
   }
   
   /*estilo do conteúdo*/
   #conteudo{
     margin-top: 60px;
-    background: #f4f4f4;
     padding-bottom: 10px;
     border-radius: 20px;
   }
