@@ -5,6 +5,7 @@ import Error from "./pages/Error/Index";
 import Home from "./pages/Home"
 import Perfil from "./pages/Perfil/Index";
 
+
 export default function Routes(){
     return(
         <BrowserRouter>

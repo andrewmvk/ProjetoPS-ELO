@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import logo from '../../assets/images/calendar.png'
 import { Link } from "react-router-dom"
+
 import Perfil from '../../pages/Perfil/Index';
+
 
 class Body extends Component{
     render(){
@@ -17,7 +19,11 @@ class Body extends Component{
                     <i className="fas fa-times" onclick="hideMenu()"></i>
                     <ul>
                         <li><Link to="Login">LOGIN</Link></li>
+
                         <li><Link to="Perfil">PERFIL</Link></li>
+
+                        <li><Link to="">PERFIL</Link></li>
+
                     </ul>
                 </div>
                 <i className="fas fa-bars" onclick="showMenu()"></i>

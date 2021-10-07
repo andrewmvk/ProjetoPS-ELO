@@ -43,17 +43,14 @@
     background-repeat: no-repeat;
     background-position: 10px;
   }
-  input.nome{
-    background-image: url(../../Imagens/icone-usuario.png);
+  .emailContainer{
+    padding-top: 10px;
   }
   input.email{
     background-image: url(../../Imagens/icone-email.png);
   }
   input.password{
     background-image: url(../../Imagens/icone-cadeado.png);
-  }
-  label.image{
-    background-image: url(../../Imagens/icone-imagem.png);
   }
   input[type='file']{
     display: none;

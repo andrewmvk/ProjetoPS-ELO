@@ -26,7 +26,7 @@ export default function Login(){
             <div id="container">
                 <div id="conteudo">
                     <form onSubmit = {handleSubmit}>
-                        <div>
+                        <div className = "emailContainer">
                             <input class="email" type="email" name="email" id="email"
                             placeholder="Digite seu email" onChange={handleInputChange} 
                              required autofocus></input>
@@ -42,6 +42,8 @@ export default function Login(){
                     </form>
                     Não possui cadastro?
                     <a class="loginECadastro" href="Cadastro"> Clique aqui</a>
+                    <a href="Cadastro"> Clique aqui</a>
+
                 </div>
             </div>
             <div id="rodape"></div>

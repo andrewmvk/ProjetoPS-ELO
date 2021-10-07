@@ -26,7 +26,7 @@ export default function Cadastro(){
             <div id="container">
                 <div id="conteudo">
                     <form onSubmit = {handleSubmit}>
-                        <div>
+                        <div className="nameContainer">
                             <input class="nome" type="username" name="nome" id="nome"
                             placeholder="Digite um nome" onChange={handleInputChange}
                              required autofocus></input>
