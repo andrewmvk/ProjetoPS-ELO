@@ -52,6 +52,9 @@
     background-repeat: no-repeat;
     background-position: 10px;
   }
+  .nameContainer{
+    padding-top: 10px;
+  }
   input.nome{
     background-image: url(../../Imagens/icone-usuario.png);
   }

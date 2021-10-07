@@ -26,7 +26,7 @@ export default function Login(){
             <div id="container">
                 <div id="conteudo">
                     <form onSubmit = {handleSubmit}>
-                        <div>
+                        <div className = "emailContainer">
                             <input class="email" type="email" name="email" id="email"
                             placeholder="Digite seu email" onChange={handleInputChange} 
                              required autofocus></input>
