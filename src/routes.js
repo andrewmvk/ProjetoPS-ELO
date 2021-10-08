@@ -4,7 +4,7 @@ import Cadastro from "./pages/Cadastro/Index";
 import Error from "./pages/Error/Index";
 import Home from "./pages/Home"
 import Perfil from "./pages/Perfil/Index";
-
+import Calendario from "./pages/Calendario/Index";
 
 export default function Routes(){
     return(
@@ -14,6 +14,8 @@ export default function Routes(){
                 <Route exact path='/login' component={Login}/>
                 <Route exact path='/cadastro' component={Cadastro}/>
                 <Route exact path='/perfil' component={Perfil}/>
+                <Route exact path='/calendario' component={Calendario}/>
+                
                 <Route path='*' component={Error}/>
             </Switch>
         </BrowserRouter>

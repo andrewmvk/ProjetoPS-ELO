@@ -1,7 +1,8 @@
 import './Style.css'
 import React from 'react'
-import calendario from '../../assets/images/calendar.png'
+import logo from '../../assets/images/calendar.png'
 import Imagem from '../../Imagens/ImagemDePerfil.jpg'
+import { Link } from "react-router-dom"
 
 export default function Perfil(){
     return(
@@ -9,18 +10,23 @@ export default function Perfil(){
             <div id="tudo">
                 <div>
                     <div id="esquerda">
-                        <h1>Minha <span>Página</span></h1>
-                        <a href="/"><h3>Voltar para a Home</h3></a>
+                    <Link to="/"><img src={logo}
+                    widht="500"
+                    height="125"/></Link>
+                        
+                        
+                    </div>
+                    <div id="pagina">
+                    <h1>Minha <span>Página</span></h1>
                     </div>
                     <div id="direita">
-                        <img src={calendario} width="240px"></img>
-                        <a href=""><h3>Calendário</h3></a>
+                        <Link to="/calendario"><h3>Calendário</h3></Link>
                     </div>
                 </div>
                 <div id="conteudoPerfil">
                     <img src={Imagem} width="200ps"></img>
-                    <input type="name" id="namePerfil" class="namePerfil" disabled="disabled" placeholder="Importar o nome pra cá"></input>
-                    <input type="email" id="emailPerfil" class="emailPerfil" disabled="disabled" placeholder="Importar o email pra ca"></input>
+                    <input type="name" id="namePerfil" class="namePerfil" disabled="disabled" placeholder="Nome Sobrenome"></input>
+                    <input type="email" id="emailPerfil" class="emailPerfil" disabled="disabled" placeholder="email@email.com"></input>
                 </div>
             </div>
             <div class="clear"></div>
