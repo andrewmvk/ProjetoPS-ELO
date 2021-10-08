@@ -6,32 +6,16 @@
     text-align: center;
     padding: 0 auto;
 }
-#esquerda{
+#pagina{
     color: white;
     float: left;
     margin-top: 40px;
-    margin-left: 80px;
+    margin-left: 0px;
 }
-#esquerda span{
+#pagina span{
     color: #1e90ff;
 }
-#esquerda a{
-    text-decoration: none;
-}
-#esquerda h3{
-    margin-top: 80px;
-    color: black;
-}
-#esquerda h3{
-    padding: 5px;
-    border-radius: 16px;
-}
-#esquerda h3:hover{
-    color: white;
-    background-color: #1e90ff;
-    border-radius: 16px;
-    transition: 0.5s;
-}
+
 #direita{
     float: right;
     margin-right: 80px;
@@ -42,11 +26,12 @@
 }
 #direita h3{
     margin-top: 20px;
-    color: black;
+    color:#fff;
 }
 #direita h3{
     padding: 5px;
     border-radius: 16px;
+    font-size: 25px;
 }
 #direita h3:hover{
     color: white;
@@ -55,11 +40,11 @@
     transition: 0.5s;
 }
 #conteudoPerfil{
-    float: left;
-    margin-top: 250px;
-    margin-left: -240px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 400px;
     width: 800px;
-    background: rgba(255, 255, 255, 0.3);
+    background:rgba(158, 172, 174, 0);
 }
 #conteudoPerfil img{
     margin-top: 20px;

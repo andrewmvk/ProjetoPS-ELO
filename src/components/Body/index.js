@@ -22,8 +22,6 @@ class Body extends Component{
 
                         <li><Link to="Perfil">PERFIL</Link></li>
 
-                        <li><Link to="">PERFIL</Link></li>
-
                     </ul>
                 </div>
                 <i className="fas fa-bars" onclick="showMenu()"></i>
